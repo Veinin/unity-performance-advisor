@@ -16,3 +16,11 @@
 - Preview：开启预览所有检测过的资源。
 
 设置检测的文件夹后，点击 `Start` 启动资源检测：
+![Assets Advisor](https://user-images.githubusercontent.com/5871485/149765207-be224d88-8ad4-4d0e-8d26-524ba687b073.gif)
+
+检测完成后，下面会输出相关检测选项，检测结果不满足需求的资源会使用红色字显示出来。可以点击操作相关按钮执行操作：
+- `>` 按钮，展示出该检测规则对应的资源列表。
+- `Fixed` 按钮，如果该检测规则可以直接批处理优化，则可以按此按钮一键批处理优化。
+- 点击资源列表中的资源，会在 `Project` 窗口定位到此资源目录。
+
+![image](https://user-images.githubusercontent.com/5871485/149765583-92c6cd17-c0e0-4705-a4ed-482994de2585.png)
