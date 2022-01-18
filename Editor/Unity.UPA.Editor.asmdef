@@ -2,8 +2,8 @@
     "name": "Unity.UPA.Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:478a2357cc57436488a56e564b08d223",
-        "GUID:7e8facc0a56c50e4b879e5a32bedc91f"
+        "Unity.EditorCoroutines.Editor",
+        "Unity.UPA.Runtime"
     ],
     "includePlatforms": [
         "Editor"
