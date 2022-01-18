@@ -32,6 +32,8 @@
 
 直接下载最新的 [unitypackage](https://github.com/Veinin/unity-performance-advisor/releases) 安装包，导入到项目编辑器内即可。
 
+如果遇到报错，请使用 Package Manager 安装依赖：[Editor Coroutines](https://docs.unity3d.com/Packages/com.unity.editorcoroutines@1.0/manual/index.html)
+
 ## 使用
 
 ### 静态资源检测
