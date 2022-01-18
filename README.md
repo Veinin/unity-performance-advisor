@@ -24,6 +24,10 @@
         }
     }
 
+或者可以使用 Package Manager 中的 `Add package from git URL` 选项，输入 url 后进行安装。
+
+![image](https://user-images.githubusercontent.com/5871485/149872106-b417e627-3b51-48a9-b350-f3f662a7831d.png)
+
 ### 通过 unitypackage 安装
 
 直接下载最新的 [unitypackage](https://github.com/Veinin/unity-performance-advisor/releases) 安装包，导入到项目编辑器内即可。
