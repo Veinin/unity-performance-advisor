@@ -28,8 +28,6 @@ namespace UPA
 
     public class EffectsAdvisorWindow : EditorWindow
     {
-        private static string PlayScene = "PatribleSystemPlay";
-
         [MenuItem("Tools/Performance Advisor/Effect Advisor")]
         public static void Init()
         {

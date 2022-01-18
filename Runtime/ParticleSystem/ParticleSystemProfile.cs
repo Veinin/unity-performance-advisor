@@ -14,8 +14,7 @@ namespace UPA
     {
         public static event Action<ParticleSystemResult> OnProfilingComplete;
 
-        private string m_path;
-        private bool m_IsPlaying;
+        private string m_Path;
 
         private float m_Duration;
         private float m_MaxDuration;
@@ -28,7 +27,7 @@ namespace UPA
 
         public string path
         {
-            set { m_path = value; }
+            set { m_Path = value; }
         }
 
         public float maxDuration
@@ -64,7 +63,7 @@ namespace UPA
 
         private void OnDestroy()
         {
-            m_ParticleSystemResult.path = m_path;
+            m_ParticleSystemResult.path = m_Path;
             m_ParticleSystemResult.Summarize();
             
             OnProfilingComplete(m_ParticleSystemResult);
@@ -72,8 +71,6 @@ namespace UPA
 
         private void RecordParticleCount()
         {
-            m_IsPlaying = false;
-
             m_ParticleSystems = GetComponentsInChildren<ParticleSystem>();
             if (m_ParticleSystems.Length == 0)
             {
@@ -88,7 +85,6 @@ namespace UPA
                 if (ps.isPlaying)
                 {
                     compCount++;
-                    m_IsPlaying = true;
                 }
             }
             m_ParticleSystemResult.particleCompCounts.Add(compCount);
