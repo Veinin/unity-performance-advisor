@@ -1,6 +1,36 @@
-# Unity 静态资源、特效性能优化工具
+<h1 align="center">Unity Performance Advisor</h1>
 
-## 静态资源检测
+一个简单的 Unity 静态资源检测、特效性能优化工具。
+
+目录
+
+- [安装](#安装)
+  - [通过 Git URL 安装](#通过-Git-URL-安装)
+  - [通过 unitypackage 安装](#通过-unitypackage-安装)
+- [使用](#使用)
+  - [静态资源检测](#静态资源检测)
+  - [特效资源检测](#特效资源检测)
+
+
+## 安装
+
+### 通过 Git URL 安装
+
+使用文本编辑器打开 *Packages/manifest.json* 文件，将下面一行地址添加到 `dependencies`中。
+
+    {
+        "dependencies": {
+            "com.veinin.upa": "https://github.com/Veinin/unity-performance-advisor.git"
+        }
+    }
+
+### 通过 unitypackage 安装
+
+直接下载最新的 [unitypackage](https://github.com/Veinin/unity-performance-advisor/releases) 安装包，导入到项目编辑器内即可。
+
+## 使用
+
+### 静态资源检测
 
 导入插件后，可以通过菜单 `Tools -> Performance Advisor -> Asset Advisor` 打开资源检测⼯具。
 ![image](https://user-images.githubusercontent.com/5871485/149739510-8a233b3d-9d3c-492a-814b-eb91dcb8350e.png)
@@ -24,7 +54,7 @@
 - 点击资源列表中的资源，会在 `Project` 窗口定位到此资源目录。
 ![image](https://user-images.githubusercontent.com/5871485/149765583-92c6cd17-c0e0-4705-a4ed-482994de2585.png)
 
-## 特效资源检测
+### 特效资源检测
 
 可以通过菜单 `Tools -> Performance Advisor -> Effect Advisor` 打开特效资源检测工具。
 ![image](https://user-images.githubusercontent.com/5871485/149765934-ea2e50c4-d8b0-498f-b7eb-bf803b42f10a.png)
@@ -38,9 +68,3 @@
 
 设置检测的文件夹后，点击 `Start` 开始特效资源检测，此时会启动游戏场景，并开始挨个执行特效播放操作，最后得到特效运行时数据：
 ![Effects Advisor](https://user-images.githubusercontent.com/5871485/149766779-9b6b04d6-e909-412e-93c6-4e579cc7c852.gif)
-
-## 依赖
-
-插件依赖于 [Editor Coroutines](https://docs.unity3d.com/Packages/com.unity.editorcoroutines@1.0/manual/index.html)，请在 Package Manager 中直接安装。
-
-
