@@ -24,7 +24,7 @@
         }
     }
 
-或者可以使用 Package Manager 中的 `Add package from git URL` 选项，输入 url 后进行安装。
+或者可以使用 Package Manager 中的 `Add package from git URL` 选项，输入 URL 后进行安装。
 
 ![image](https://user-images.githubusercontent.com/5871485/149872106-b417e627-3b51-48a9-b350-f3f662a7831d.png)
 
