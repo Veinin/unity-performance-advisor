@@ -4,7 +4,6 @@ using System.Collections.Generic;
 
 namespace UPA
 {
-#if UNITY_EDITOR
     /// <summary>
     /// 粒子系统分析规则
     /// </summary>
@@ -141,5 +140,4 @@ namespace UPA
         public double overDrawAvg;
         public double overDrawMax;
     }
-#endif
 }

@@ -6,7 +6,6 @@ using UnityEditor;
 
 namespace UPA
 {
-#if UNITY_EDITOR
     /// <summary>
     /// 粒子系统性能分析器
     /// </summary>
@@ -179,5 +178,4 @@ namespace UPA
             return Convert.ToInt32(g / 0.04);
         }
     }
-#endif
 }

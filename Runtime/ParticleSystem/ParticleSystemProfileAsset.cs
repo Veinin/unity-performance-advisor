@@ -4,7 +4,6 @@ using UnityEngine;
 
 namespace UPA
 {
-#if UNITY_EDITOR
     [Serializable]
     [CreateAssetMenu(fileName = "ParticleSystemProfile", menuName = "Performance Advisor/Particle System Profile Asset")]
     public class ParticleSystemProfileAsset : ScriptableObject
@@ -40,5 +39,4 @@ namespace UPA
             }
         }
     }
-#endif
 }

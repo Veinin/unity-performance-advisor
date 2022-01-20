@@ -3,7 +3,6 @@ using UnityEngine;
 
 namespace UPA
 {
-#if UNITY_EDITOR
     [CreateAssetMenu(fileName = "New Profile Asset.asset", menuName = "Performance Advisor/Profile Asset")]
     public class AssetAdvisorSettings : ScriptableObject
     {
@@ -84,5 +83,4 @@ namespace UPA
             }
         }
     }
-#endif
 }
