@@ -28,7 +28,7 @@ namespace UPA
 
     public class EffectsAdvisorWindow : EditorWindow
     {
-        [MenuItem("Tools/Performance Advisor/Effect Advisor")]
+        [MenuItem("Tools/Performance Advisor/Effects Advisor")]
         public static void Init()
         {
             EffectsAdvisorWindow window = (EffectsAdvisorWindow)EditorWindow.GetWindow(typeof(EffectsAdvisorWindow));
