@@ -38,8 +38,8 @@
 
 ### 静态资源检测
 
-导入插件后，可以通过菜单 `Tools -> Performance Advisor -> Asset Advisor` 打开资源检测⼯具。
-![image](https://user-images.githubusercontent.com/5871485/149739510-8a233b3d-9d3c-492a-814b-eb91dcb8350e.png)
+导入插件后，可以通过菜单 `Tools -> Performance Advisor -> Assets Advisor` 打开资源检测⼯具。
+![image](https://user-images.githubusercontent.com/5871485/150292774-6844dafa-e7f2-40f2-a027-df4876405f91.png)
 
 打开后，你可以看到以下界面信息：
 ![image](https://user-images.githubusercontent.com/5871485/149739649-086d0017-fa8b-4e71-ba2a-1bdc1b424635.png)
@@ -62,7 +62,7 @@
 
 ### 特效资源检测
 
-可以通过菜单 `Tools -> Performance Advisor -> Effect Advisor` 打开特效资源检测工具。
+可以通过菜单 `Tools -> Performance Advisor -> Effects Advisor` 打开特效资源检测工具。
 ![image](https://user-images.githubusercontent.com/5871485/149765934-ea2e50c4-d8b0-498f-b7eb-bf803b42f10a.png)
 
 打开后，你可以看到以下界面信息：
