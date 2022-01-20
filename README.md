@@ -63,7 +63,7 @@
 ### 特效资源检测
 
 可以通过菜单 `Tools -> Performance Advisor -> Effects Advisor` 打开特效资源检测工具。
-![image](https://user-images.githubusercontent.com/5871485/149765934-ea2e50c4-d8b0-498f-b7eb-bf803b42f10a.png)
+![image](https://user-images.githubusercontent.com/5871485/150292774-6844dafa-e7f2-40f2-a027-df4876405f91.png)
 
 打开后，你可以看到以下界面信息：
 ![image](https://user-images.githubusercontent.com/5871485/149766226-3d561911-15ec-45b9-9efc-a6999ce585ff.png)
