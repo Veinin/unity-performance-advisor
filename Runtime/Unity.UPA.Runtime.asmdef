@@ -3,7 +3,10 @@
     "rootNamespace": "",
     "references": [],
     "includePlatforms": [
-        "Editor"
+        "Editor",
+        "macOSStandalone",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
